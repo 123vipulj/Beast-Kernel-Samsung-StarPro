@@ -108,6 +108,7 @@ struct sprd_dvfs_table {
 };
 
 static struct sprd_dvfs_table sc8825g_dvfs_table[] = {
+	[0] = { 1100000 , 1300000 }, /* 1100,000KHz, 1300mv */
 	[0] = { 1000000 , 1200000 }, /* 1000,000KHz,  1200mv */
 	[1] = {  500000 , 1100000 }, /* 500,000KHz,  1100mv */
 };
